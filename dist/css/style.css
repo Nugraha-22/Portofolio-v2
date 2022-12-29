@@ -24,6 +24,8 @@ header {
 .navbar {
     padding: 20px 0 20px 0;
     width: 100%;
+    background-color: #023047;
+    position: fixed;
 }
 
 .navbar .box-navbar {
