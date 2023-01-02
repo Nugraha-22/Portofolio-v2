@@ -165,6 +165,10 @@ header {
     align-items: center;
 }
 
+.about .box-about .box:nth-child(1) {
+    margin-right: 100px;
+}
+
 .about .box-about .box:nth-child(1) h1 {
     margin-bottom: 10px;
 }
@@ -490,8 +494,9 @@ header {
     }
 
     .about .box-about .box:nth-child(1) {
-        order: 3;
+        order: 2;
         text-align: center;
+        margin-right: 0;
     }
 
     .about .box-about .box:nth-child(2) img {
