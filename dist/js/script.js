@@ -24,3 +24,34 @@ const closeBar = document.querySelector('.fa-circle-xmark');
 closeBar.addEventListener('click', () => {
     sideBar.classList.remove('active');
 });
+
+const hero = document.querySelector('.hero');
+
+hero.addEventListener('click', () => {
+    sideBar.classList.remove('active');
+});
+
+const about = document.querySelector('.about');
+
+about.addEventListener('click', () => {
+    sideBar.classList.remove('active');
+});
+
+const certificate = document.querySelector('.certificate');
+
+certificate.addEventListener('click', () => {
+    sideBar.classList.remove('active');
+});
+
+const project = document.querySelector('.project');
+
+project.addEventListener('click', () => {
+    sideBar.classList.remove('active');
+});
+
+const contact = document.querySelector('.contact');
+
+contact.addEventListener('click', () => {
+    sideBar.classList.remove('active');
+});
+
