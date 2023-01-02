@@ -1,19 +1,26 @@
-const navBar = document.querySelector('.navbar');
+const navbar = document.querySelector('.navbar');
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', () => {
     const positionWindow = window.scrollY > 0;
-    navBar.classList.toggle('active', positionWindow);
+    navbar.classList.toggle('active', positionWindow);
+});
+
+const items = document.querySelector('.items');
+const listItems = document.querySelector('.list-items');
+
+items.addEventListener('click', () => {
+    listItems.classList.toggle('active');
 });
 
 const menuBar = document.querySelector('.menu-bars');
-const showMenu = document.querySelector('.navigation');
+const sideBar = document.querySelector('.navigation');
 
-menuBar.addEventListener('click', function(){
-    showMenu.classList.toggle('active');
+menuBar.addEventListener('click', () => {
+    sideBar.classList.toggle('active');
 });
 
-const closeBar = document.querySelector('.fa-xmark');
+const closeBar = document.querySelector('.fa-circle-xmark');
 
-closeBar.addEventListener('click', function(){
-    showMenu.classList.remove('active');
+closeBar.addEventListener('click', () => {
+    sideBar.classList.remove('active');
 });
