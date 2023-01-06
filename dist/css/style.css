@@ -254,6 +254,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     row-gap: 100px;
+    column-gap: 100px;
 }
 
 .project .box-project .box:nth-child(1) img {
