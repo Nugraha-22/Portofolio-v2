@@ -94,8 +94,8 @@ header {
     flex-direction: column;
     background-color: #f8a705;
     position: absolute;
-    top: 35px;
-    width: 141px;
+    top: 65px;
+    width: 140px;
     transform: scaleY(0);
     transform-origin: top;
     transition: all 0.3s ease;
